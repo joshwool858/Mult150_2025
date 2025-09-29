@@ -734,7 +734,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &256776655
 MeshRenderer:
@@ -1700,8 +1700,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618465444}
-  m_LocalRotation: {x: 0.37259373, y: 0.44266495, z: 0.20880988, w: -0.7884289}
-  m_LocalPosition: {x: 166.63011, y: -4.9398823, z: 122.64613}
+  m_LocalRotation: {x: 0.20072733, y: 0.31186274, z: 0.067230925, w: -0.9262452}
+  m_LocalPosition: {x: 40.30694, y: 7.7289295, z: 11.074375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
