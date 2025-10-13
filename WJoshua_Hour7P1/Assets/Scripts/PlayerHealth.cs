@@ -11,18 +11,41 @@ public class PlayerHealth : MonoBehaviour
         health = 1004f;
         float poisonDamage;
         poisonDamage = 125.5f;
+       
+        Debug.Log("health is: " + health);
 
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-        health = health - poisonDamage;
-
+        health -= poisonDamage; 
 
         Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
+        health -= poisonDamage;
+
+        Debug.Log("health is: " + health);
+
         Debug.Log("Player has been unalived!");
         
     }
